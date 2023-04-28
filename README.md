@@ -1,13 +1,13 @@
 # Dash Car Rental
  Car rental website.
 ## Rundown: 
- [See report](./Car Rental System.pdf).
+ [See report](./Car-Rental-System.pdf).
 ## Screnshots:
- ![Home Page](./screenshots/homepage.png "Home Page")
- ![Admin Login Page](./screenshots/admin login page.png "Admin Login Page")
- ![Customer Login Page](./screenshots/customer login page.png "Customer Login Page")
- ![Manage Reseravtions Page](./screenshots/manage reservations page.png "Manage Reservations Page")  
- ![Manage Payments Page](./screenshots/manage payments page.png "Manage Payments Page")   
+ ![Home Page](./Screenshots/homepage.png "Home Page")
+ ![Admin Login Page](./Screenshots/adminloginpage.png "Admin Login Page")
+ ![Customer Login Page](./Screenshots/customerloginpage.png "Customer Login Page")
+ ![Manage Reseravtions Page](./Screenshots/managereservationspage.png "Manage Reservations Page")  
+ ![Manage Payments Page](./Screenshots/managepaymentspage.png "Manage Payments Page")   
 ## Features:
     - The admin can register a new car (model, year, plate id, etc.) and update car status (active, out of service, rented, etc.)
     - Registers multiple offices, allowing customers to reserve their cars from anywhere in the world via this system.
