@@ -27,5 +27,7 @@
     - copy the Dash Car Rental directory into the htdocs folder in the xampp directory
     - create the database the SQL files in PHPmyadmin
     - from the xampp control panel,start Apache and MySQL
-    - in your browser go to localhost/Dash Car Rental  
-## Contributors
+    - in your browser go to localhost/Dash Car Rental
+## Future Improvements:
+
+## Contributors:
