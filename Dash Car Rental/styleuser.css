@@ -12,10 +12,10 @@ body {
     background-size: 1600px 1000px;
     position: relative;
 }
-    .topnat{
+.topnat{
         overflow: hidden;
     }
-    .topnat a{
+.topnat a{
         float: left;
         color: #f2f2f2;
         
@@ -24,7 +24,7 @@ body {
         padding: 10px 20px;
         text-decoration: none;
         font-size: 20px;
-    }
+}
     .topnat a:hover{
         text-decoration: underline;
         color: black;
@@ -269,63 +269,109 @@ body {
         border-radius: 15px;
         display: block;
     }
-    .Managepayments h2{
-        padding-left: 95px;
-        padding-top: 15px;
-        opacity: 1;
-    }
-    .Managepayments h3{
-        padding-left: 155px;
-        opacity: 1;
-        padding-top: 0px;
-        font-size: large;
-    }
-    .Managepayments input[type=submit]{
-        margin-left: 180px;
-        opacity: 1;
-        margin-top: 15px;
-    }
-    .ManageBox{ 
-        background-color: white;
-        opacity: 0.8;
-        margin-top: 30px;
-        margin-left: 100px;
-        width: 500px;
-        height: 250px;
-        border-radius: 15px;
-        display: block;
-    }
-    .ManageBox h3{
-        padding-left: 50px;
-        padding-top: 15px;
-        padding-bottom: 20px;
-        display: flex;
-        opacity: 1;
-    }
-    .ManageBox label{
-        padding-left: 60px;
-        display: flex;
-        opacity: 1;
-    }
+.Managepayments h2{
+    padding-left: 95px;
+    padding-top: 15px;
+    opacity: 1;
+}
+.Managepayments h3{
+    padding-left: 155px;
+    opacity: 1;
+    padding-top: 0px;
+    font-size: large;
+}
+.Managepayments input[type=submit]{
+    margin-left: 180px;
+    opacity: 1;
+    margin-top: 15px;
+}
+.ManageBox{ 
+    background-color: white;
+    opacity: 0.8;
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 500px;
+    height: 250px;
+    border-radius: 15px;
+    display: block;
+}
+.ManageBox h3{
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    display: flex;
+    opacity: 1;
+}
+.ManageBox label{
+    padding-left: 60px;
+    display: flex;
+    opacity: 1;
+}
     
-    .ManageBox input[type=submit]{
-        opacity: 1;
-        margin-left: 220px;
-        margin-top: 0px;
-    }
-    .ManageBox input[type=submit]{
-        opacity: 1;
-        margin-left: 220px;
-        margin-top: 0px;
-    }
-    
-    .sd-res{
-        opacity: 1;
-        display: inline-block;
-        margin-left: 100px;
-    }
-    .ed-res{
-        opacity: 1;
-        display: inline-block;
-        margin-left: 100px;
-    }
+.ManageBox input[type=submit]{
+    opacity: 1;
+    margin-left: 220px;
+    margin-top: 0px;
+}
+.ManageBox input[type=submit]{
+    opacity: 1;
+    margin-left: 220px;
+    margin-top: 0px;
+}
+.USERSIUP{
+    padding-left:50px;
+    margin-left:50px;
+}
+
+.Signupform{
+    margin-top: 100px;
+    margin-left: 500px;
+    width:fit-content;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 20px;
+    height: fit-content;
+    border-color: #ffffff;
+    background-color: #ffffff;
+}
+
+.Signupform label{
+    padding-left:0px;
+    margin-left:0px;
+}
+
+.Signupform h2{
+    padding-top:0px;
+    margin-top:0px;
+    padding-left:0px;
+    margin-left:60px;
+}
+
+.ManageResVV{
+    opacity: 0.8;
+    margin-top: 40px;
+    margin-left: 50px;
+    width:fit-content;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 20px;
+    border-color: #ffffff;
+    background-color: #ffffff;
+}
+
+.ManageResVV h3{
+    margin: 0%;
+    padding: 0%;
+}
+
+.searchCARS{
+    opacity: 0.8;
+    margin-top: 40px;
+    margin-left: 50px;
+    width:fit-content;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 20px;
+    border-color: #ffffff;
+    background-color: #ffffff;
+}

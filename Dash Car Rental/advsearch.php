@@ -41,7 +41,6 @@
 		<div class="AdvSearchBox">
 		<h3>ADVANCED SEARCH</h3>
 		<form name="AdvForm" onsubmit="return validateForm()" method ="post">
-		<div class="CustomerForm">
 		<h4>Customer Information</h4>
 		<label>Enter Customer ID:</label>
 		<input type="text" name="cust_idv" placeholder="Customer ID"/></br>
@@ -53,8 +52,6 @@
 		<input type="text" name="cust_phonev" placeholder="Customer Phone"/></br>
 		<label>Enter Customer City:</label>
 		<input type="text" name="cust_cityv" placeholder="Customer City"/>
-		<div>
-		<div class="CarInfoForm">
 		<h4>Car Information</h4>
 				<label>Enter Car Plate ID:</label>
 		<input type="text" name="plate_idv" placeholder="Plate ID"/></br>
@@ -64,8 +61,6 @@
 		<input type="text" name="car_modv" placeholder="Car Model"/></br>
 				<label>Enter Car Year:</label>
 		<input type="text" name="car_yearv" placeholder="Car Year"/></br>
-		<div>
-		<div class="ReservForm">
 		<h4>Reservation Information</h4>
 				<label>Enter Reservation ID:</label>
 		<input type="text" name="res_idv" placeholder="Reservation ID"/></br>
@@ -79,11 +74,8 @@
 		<input type="date" name="pk_datev" placeholder="Pickup Date"/><br>
 				<label>Enter Reservation Return Date:</label>
 		<input type="date" name="r_datev" placeholder="Return Date"/>
-		<div>
 		<p><tr><center><button type="submit" name="searchv" value="Search" class="btn btn-primary"> Search </button><center>
 		</form>
-		<div>
-		<div>
 		<?php
 		//$connect = mysqli_connect('localhost','root','','car_rental_system');
 		include "db_conn.php";
@@ -268,7 +260,8 @@
 		}
 		echo"</table>";
 		}
-		?>
+		?>	
+		</div>
 </body>
 </html>	
 		

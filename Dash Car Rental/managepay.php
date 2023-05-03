@@ -16,11 +16,13 @@
 		</div>
 		<div class="Managepayments">
 		<h2>MANAGE PAYMENTS</h2>
+		<?php if (isset($_GET['error'])) { ?>
+		<p class="error"><?php echo $_GET['error']; ?></p>
+		<?php } ?>
 		<h3>VIEW ALL PAYMENTS</h3>
 		<form method ="post">
 		<input type="submit" name="viewPayment" value="View Payments">
 		</form>
-		</div>
 		<?php
 		//$connect = mysqli_connect('localhost','root','','car_rental_system');
 		include "db_conn.php";
@@ -42,7 +44,6 @@
 		echo"</table>";
 		}
 		?>
-		<div class="ManageBox">
 		<h3>SEARCH PAYMENTS BY DATE</h3>
 		<form method ="post">
 		<label>Enter Starting Date:</label>
@@ -55,7 +56,6 @@
 		<button type="submit" name="searchPayments" value="Search Payments" class="btn btn-primary"> Search Payment </button>
 		</div>
 	</form>
-		</div>
 		<?php
 		//$connect = mysqli_connect('localhost','root','','car_rental_system');
 		include "db_conn.php";
@@ -113,5 +113,6 @@
 		echo"</table>";
 		}
 		?>
+		</div>
 </body>
 </html>	

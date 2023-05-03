@@ -14,7 +14,7 @@
 		<a href=manageoff.php>Manage Offices</a>
 		<a class="logout" href=index.php>logout</a>
 		</div>
-		
+		<div class="ManageCust">
 		<?php if (isset($_GET['error'])) { ?>
 		<p class="error"><?php echo $_GET['error']; ?></p>
 		<?php } ?>
@@ -125,7 +125,8 @@
 		<input type="text" name="cust_idd" placeholder="Customer ID"/>
 		<button type="submit" name="deleteCustomer" value="Delete Customer" class="btn btn-primary"> Delete Customer </button>
 		</form>
-		<?php
+	</div>
+	<?php
 		//$connect = mysqli_connect('localhost','root','','car_rental_system');
 		include "db_conn.php";
 		//session_start();

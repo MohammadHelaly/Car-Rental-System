@@ -95,7 +95,6 @@
 		
 		
 		$result= mysqli_query($conn, $query);
-		echo mysqli_num_rows($result);
 		if(mysqli_num_rows($result)== 0){  
 			//header("Location: manageres.php?error=Reservations not found.");
 			//exit();
@@ -200,7 +199,6 @@
 		
 		
 		$result= mysqli_query($conn, $query);
-		echo mysqli_num_rows($result);
 		if(mysqli_num_rows($result)== 0){  
 			//header("Location: manageres.php?error=Reservations not found.");
 			//exit();
@@ -297,7 +295,6 @@
 		
 		
 		$result= mysqli_query($conn, $query);
-		echo mysqli_num_rows($result);
 		if(mysqli_num_rows($result)== 0){  
 			//header("Location: manageres.php?error=Reservations not found.");
 			//exit();
@@ -327,7 +324,7 @@
 		<button type="submit" name="deleteRes" value="Delete Reservation" class="btn btn-primary"> Delete Reservations </button>
 		</form>
 	</div>
-		<?php
+	<?php
 		//$connect = mysqli_connect('localhost','root','','car_rental_system');
 		include "db_conn.php";
 		//session_start();

@@ -10,6 +10,10 @@
 		<a href=cuscar.php>Search Cars</a>
 		<a class="logout" href=index.php>logout</a>
 		</div>
+		<div class="ManageResVV">
+		<?php if (isset($_GET['error'])) { ?>
+		<p class="error"><?php echo $_GET['error']; ?></p>
+		<?php } ?>
 		<br><h3>VIEW ALL MY RESERVATIONS</h3>
 		<form method ="post">
 		<button type="submit" name="viewRes" value="View Reservations" class="btn btn-primary"> View reservations</button>
@@ -43,6 +47,7 @@
 		}
 		?>
 
+
 		
 		<br><h3>MAKE A RESERVATION</h3>
 		<form method ="post">
@@ -54,7 +59,8 @@
 		<input type="date" name="r_dater" placeholder="Return Date"/><br><br>
 		<button type="submit" name="searchResr" value="Make Reservation" class="btn btn-primary"> Make Reservation</button>
 		</form>
-		<?php
+	</div>
+	<?php
 		//$connect = mysqli_connect('localhost','root','','car_rental_system');
 		include "db_conn.php";
 		//session_start();

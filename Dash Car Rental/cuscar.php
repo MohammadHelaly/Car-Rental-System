@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>SEARCH CARS</title>
-		<link rel="stylesheet" href="Style.css">
+		<link rel="stylesheet" href="Styleuser.css">
 	</head>
 <body>
 		<div class="topnav">
@@ -10,7 +10,11 @@
 		<a class="active" href=cuscar.php>Search Cars</a>
 		<a class="logout" href=index.php>logout</a>
 		</div>
+		<div class="searchCARS">
 		
+		<?php if (isset($_GET['error'])) { ?>
+		<p class="error"><?php echo $_GET['error']; ?></p>
+		<?php } ?>
 		<h3>VIEW ALL CARS</h3>
 		<form method ="post">
 		<button type="submit" name="viewCar" value="View Cars" class="btn btn-primary"> View Cars </button>
@@ -175,6 +179,6 @@
 		echo"</table>";		
 		}
 		?>
-		
+		</div>
 </body>
 </html>	

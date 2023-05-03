@@ -14,7 +14,10 @@
 		<a class="active" href=manageoff.php>Manage Offices</a>
 		<a class="logout" href=index.php>logout</a>
 		</div>
-		
+		<div class="ManageOff">
+		<?php if (isset($_GET['error'])) { ?>
+		<p class="error"><?php echo $_GET['error']; ?></p>
+		<?php } ?>
 		<h3>VIEW ALL OFFICES</h3>
 		<form method ="post">
 		<button type="submit" name="viewOffice" value="View Offices"class="btn btn-primary">View Offices </button>
@@ -184,6 +187,7 @@
 		<input type="text" name="off_idd" placeholder="Office ID"/>
 		<button type="submit" name="deleteOffice" value="Delete Office" class="btn btn-primary"> Delete Office </button>
 		</form>
+		</div>
 		<?php
 		//$connect = mysqli_connect('localhost','root','','car_rental_system');
 		include "db_conn.php";

@@ -3,10 +3,9 @@
 	<head>
 		<title>USER SIGNUP</title>
     <link rel="stylesheet" href="styleuser.css">
-    <link rel="stylesheet" type= "text/css" 
-        href ="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
 	</head>
 	<script>
+ <script>
   function validateForm() {
     let x = document.forms["SignupForm"]["email"].value;
     let l = document.forms["SignupForm"]["name"].value;
@@ -70,7 +69,11 @@
     
   }
   </script>
+  </script>
 <body>
+<div class="topnat">
+ 		<a href=index.php>Back</a>
+		</div>
   <div class="Signupform">
 	<form name="SignupForm" action="usersignup.php" onsubmit="return validateForm()" method="post">
 		<h2>USER SIGNUP</h2>
@@ -96,7 +99,7 @@
 		<input type="password" name="confirmpassword" placeholder="Confirm Password" name="ConfirmPassword"/><br>
     <br>
 		
-		<center><button type ="submit" class="btn btn-primary"> Sign up </button><center>
+		<button type ="submit" class="btn btn-primary"> Sign up </button>
 	</form>
     </div>	
 </body>

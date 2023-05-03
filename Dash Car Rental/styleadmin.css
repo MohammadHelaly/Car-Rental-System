@@ -11,15 +11,13 @@ body {
     background-position-y: -50px;
     background-size: 1600px 1000px;
     position: relative;
-    
-   }
-   .topnat{
+}
+.topnat{
     overflow: hidden;
 }
 .topnat a{
     float: left;
-    color: #f2f2f2;
-    
+    color: #f2f2f2;    
     margin-left: 0px;
     text-align: center;
     padding: 10px 20px;
@@ -30,19 +28,60 @@ body {
     text-decoration: underline;
     color: black;
 }
+.topiv{
+    overflow: hidden;
+}
+.topiv a{
+    float: left;
+    color: #b74848;
+    margin-left: 0px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.topiv a:hover{
+    text-decoration: underline;
+    color: black;
+}
 .topnav {
     overflow: hidden;
     margin-top: 10px;
     background-color: #6e6e6e;
     
   }
+
+  .AdvSearchBox{
+    opacity: 0.8;
+    margin-top: 40px;
+    margin-left: 50px;
+    width:fit-content;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 20px;
+    border-color: #ffffff;
+    background-color: #ffffff;
+}
+.AdvSearchBox h3{
+    padding-top: 10px;
+    margin: 0px;
+    padding-left: 100px;
+    font-size: 2rem;
+}
+.AdvSearchBox h4{
+    font-display: bold;
+}
+.AdvSearchBox input[type=submit]{
+    margin-top: 5px;
+    margin-left: 100px;
+    width:200px;
+}
   
   /* Style the links inside the navigation bar */
 .topnav a {
-    
     float: left;
     color: #f2f2f2;
-    margin-left: 35px;
+    margin-left: 25px;
     text-align: center;
     padding: 10px 20px;
     text-decoration: none;
@@ -188,25 +227,6 @@ body {
     margin-left: 140px;
     width:200px;
 }
-.AdvSearchBox{
-    background-color: white;
-    margin-top: 30px;
-    margin-left: 500px;
-    width: 470px;
-    height: 650px;
-    opacity: 0.8;
-    border-radius: 15px;
-    display: block;
-}
-.AdvSearchBox h3{
-    padding-top: 10px;
-    margin: 0px;
-    padding-left: 100px;
-    font-size: 2rem;
-}
-.AdvSearchBox h4{
-    font-display: bold;
-}
 .CustomerForm{
     padding-top: 0px;
     margin: 0px;
@@ -237,78 +257,74 @@ body {
     margin: 0px;
     display: inline-block;
 }
-.AdvSearchBox input[type=submit]{
-    margin-top: 5px;
-    margin-left: 100px;
-    width:200px;
-}
 .Managepayments{
-    background-color: white;
-    margin-top: 160px;
-    margin-left: 100px;
     opacity: 0.8;
-    width: 500px;
-    height: 150px;
-    border-radius: 15px;
-    display: block;
+    margin-top: 110px;
+    margin-left: 50px;
+    width:fit-content;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 20px;
+    border-color: #ffffff;
+    background-color: #ffffff;
 }
-.Managepayments h2{
-    padding-left: 95px;
-    padding-top: 15px;
-    opacity: 1;
-}
-.Managepayments h3{
-    padding-left: 155px;
-    opacity: 1;
-    padding-top: 0px;
-    font-size: large;
-}
-.Managepayments input[type=submit]{
-    margin-left: 180px;
-    opacity: 1;
-    margin-top: 15px;
-}
-.ManageBox{ 
-    background-color: white;
+.ManageRes{
     opacity: 0.8;
-    margin-top: 30px;
-    margin-left: 100px;
-    width: 500px;
-    height: 250px;
-    border-radius: 15px;
-    display: block;
+    margin-top: 40px;
+    margin-left: 50px;
+    width:fit-content;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 20px;
+    border-color: #ffffff;
+    background-color: #ffffff;
 }
-.ManageBox h3{
-    padding-left: 50px;
-    padding-top: 15px;
-    padding-bottom: 20px;
-    display: flex;
-    opacity: 1;
+.ManageRes h3{
+    margin: 0%;
+    padding: 0%;
 }
-.ManageBox label{
-    padding-left: 60px;
-    display: flex;
-    opacity: 1;
+.ManageCARR{
+    opacity: 0.8;
+    margin-top: 40px;
+    margin-left: 50px;
+    width:fit-content;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 20px;
+    border-color: #ffffff;
+    background-color: #ffffff;
 }
-
-.ManageBox input[type=submit]{
-    opacity: 1;
-    margin-left: 220px;
-    margin-top: 0px;
+.ManageCARR h3{
+    margin: 0%;
+    padding: 0%;
 }
-.ManageBox input[type=submit]{
-    opacity: 1;
-    margin-left: 220px;
-    margin-top: 0px;
+.ManageCust{
+    opacity: 0.8;
+    margin-top: 40px;
+    margin-left: 50px;
+    width:fit-content;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 20px;
+    border-color: #ffffff;
+    background-color: #ffffff;
 }
-
-.sd-res{
-    opacity: 1;
-    display: inline-block;
-    margin-left: 100px;
+.ManageCust h3{
+    margin: 0%;
+    padding: 0%;
 }
-.ed-res{
-    opacity: 1;
-    display: inline-block;
-    margin-left: 100px;
+.ManageOff{
+    opacity: 0.8;
+    margin-top: 40px;
+    margin-left: 50px;
+    width:fit-content;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 20px;
+    border-color: #ffffff;
+    background-color: #ffffff;
+}
+.ManageOff h3{
+    margin:0%;
+    padding:0%;
 }

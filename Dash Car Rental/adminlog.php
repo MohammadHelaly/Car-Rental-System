@@ -29,6 +29,9 @@
   }
   </script>
 <body>
+<div class="topiv">
+ 		<a href=index.php>Back</a>
+		</div>  
 <div class="container">
             
             <div class ="row">

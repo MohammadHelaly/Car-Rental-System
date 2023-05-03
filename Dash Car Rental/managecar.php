@@ -16,6 +16,10 @@
 		<a class="logout" href=index.php>logout</a>
 		</div>
 		<div class="ManageCARR">
+		
+		<?php if (isset($_GET['error'])) { ?>
+		<p class="error"><?php echo $_GET['error']; ?></p>
+		<?php } ?>
 		<h3>VIEW ALL CARS</h3>
 		<form method ="post">
 		<button type="submit" name="viewCar" value="View Cars" class="btn btn-primary"> View Cars</button>
@@ -38,7 +42,7 @@
 		echo"</table>";
 		}
 		?>
-		
+
 		<br><h3>SEARCH CARS</h3>
 		<form method ="post">
 		<label>Enter Car Plate ID:</label>
@@ -315,7 +319,6 @@
 		echo"</table>";
 		}
 		?>
-		<div class=UpdateCARR>
 				<br><h3>UPDATE CAR STATUS</h3>
 		<form method ="post">
 		<label>Enter Car Plate ID:</label>
@@ -326,7 +329,6 @@
 		<input type="date" name="st_date" placeholder="Status Date"/>
 		<button type="submit" name="updateStatus" value="Update Status" class="btn btn-primary">Update Status</button>
 		</form>
-		</div>
 		<?php
 		//$connect = mysqli_connect('localhost','root','','car_rental_system');
 		include "db_conn.php";
@@ -406,7 +408,6 @@
 		}
 		?>
 		
-		<div class=SearchStatus>
 		<br><h3>SEARCH CAR STATUS BY CAR/DATE</h3>
 		<form method ="post">
 		<label>Enter Car Plate ID:</label>
@@ -415,9 +416,7 @@
 		<input type="date" name="date" placeholder="Status Date"/>
 		<button type="submit" name="searchStatus" value="Search Status" class="btn btn-primary"> Search Status </button>
 		</form>
-		</div>
-	</div>
-		<?php
+	<?php
 		//$connect = mysqli_connect('localhost','root','','car_rental_system');
 		include "db_conn.php";
 		//session_start();
@@ -471,6 +470,6 @@
 		echo"</table>";	
 		}
 		?>
-		
+		</div>
 </body>
 </html>	
