@@ -14,7 +14,7 @@
 		</div>
 	<div class="box">
 	<div class="Index-box">
-		<h1>HASH CAR RENTAL</h1>
+		<h1>DriveIt.io</h1>
 		<h2>Fast & East Way To Rent A Car</h1>
 		<h3>Where you can find what you need when it comes to renting a car</h3>
 		<h4>just by a click you can reserve you car with us</h4>
